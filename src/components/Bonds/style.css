@@ -1,0 +1,12 @@
+.bond-container {
+  height: fit-content;
+  background-color: #f7fbff;
+  border-radius: 10px;
+  margin: 20px;
+  border: 1px solid rgb(212, 212, 212);
+  display: flex;
+}
+
+.bond-container > * {
+  flex: 1;
+}

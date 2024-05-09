@@ -1,0 +1,7 @@
+.header-container {
+  background-color: aliceblue;
+  padding: 10px;
+  .logo {
+    cursor: pointer;
+  }
+}

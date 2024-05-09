@@ -1,0 +1,59 @@
+.scope-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+.scope-container-actions {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scope-container-chart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.scope-container-bonds {
+  margin-left: -30px;
+}
+.scope-container-bonds ul {
+  list-style: none;
+  font-size: 14px;
+  width: 230px;
+}
+.scope-container-bonds li {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scope-container-bonds li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 230px;
+  height: 1px;
+  background-color: rgb(214, 214, 214);
+}
+.green {
+  color: #188c3d;
+}
+
+.social {
+  color: #d3a228;
+}
+
+.sustainability {
+  color: #299cc4;
+}
+
+.sustainability-linked {
+  color: #006d89;
+}

@@ -1,0 +1,34 @@
+.figures-container {
+  padding: 20px;
+}
+.figures-container-info {
+  padding-left: 200px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100%;
+}
+.figures-container-data {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.figures-container-info .text {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.figures-container-info .label {
+  font-size: 15px;
+  color: #676767;
+  font-family: "JetBrains Mono";
+}
+.figures-container-info .amount {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Open Sans";
+}

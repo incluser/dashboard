@@ -1,0 +1,18 @@
+.map-container {
+  height: 500px;
+  background-color: #f7fbff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  border: 1px solid rgb(212, 212, 212);
+  font-family: "JetBrains Mono";
+  font-weight: 700;
+}
+
+.map-itself {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
